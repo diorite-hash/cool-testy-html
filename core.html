@@ -141,15 +141,21 @@
     <div class="input-group">
         <input type="text" id="input1" placeholder="Social Security Number">
     </div>
-    <a href="https://bigrat.monster">
-        <button type="button">Big Rat</button>
-    </a>
+    <button type="subButton">Submit</button>
 </div>
 
 <!-- core.js -->
 <script>
     console.log("core.js");
     const ssn = document.getElementById('input1').value.trim();
+    const subButton = document.getElementById("subButton");
+    const REAL_KEY = 12345;
+
+    subButton.addEventListener("click", () => {
+        if (ssn == REAL_KEY) {
+            window.location.href = "https://bigrat.monster";
+        }
+    });
 </script>
 
 </html>
