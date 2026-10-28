@@ -74,6 +74,12 @@ h1 {
 
 .input-group { margin-bottom: 15px; }
 
+.fixed-button {
+    width: 60px;  /* Specific width */
+    height: 60px;  /* Specific height */
+    font-size: 16px;
+}
+
 input {
     width: 100%;
     background: rgba(0, 0, 0, 0.4);
@@ -109,10 +115,6 @@ button:hover {
     transform: translateY(-2px);
     box-shadow: 0 10px 20px var(--accent-glow);
     transition: transform 0.2s ease;
-}
-  
-.btn-hover:hover {
-    transform: scale(1.1);
 }
 
 button:disabled {
