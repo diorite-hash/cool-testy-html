@@ -10,21 +10,15 @@
     <link rel="stylesheet" href="styles/purpur.css">
 </head>
 
-<div class="container">
-    <h1>Rad Net</h1>
-    <p class="description">Press [ENTER] on a page to return to the home page.</p>
-
-    <button onclick="location.href='pages/learnMore.html'">
-        Learn More
-    </button>
-    <button onclick="location.href='pages/rat.html'">
-        Rat
-    </button>
-</div>
+<p>This website serves as a testing ground/tech demo for raw html. [Press ENTER to continue]</p>
 
 <!-- core.js -->
 <script>
-    console.log("core.js");
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            window.location.href = '../home.html';
+        }
+    });
 </script>
 
 </html>
