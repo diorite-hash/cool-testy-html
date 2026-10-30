@@ -44,6 +44,7 @@ body {
     max-width: 450px;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
     text-align: center;
+    margin: 10px;
     animation: slideUp 1s cubic-bezier(0.16, 1, 0.3, 1), float 6s ease-in-out infinite 1s;
 }
 
