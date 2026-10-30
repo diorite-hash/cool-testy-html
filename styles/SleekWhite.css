@@ -114,13 +114,11 @@ button {
     letter-spacing: 1px;
     margin-top: 10px;
 }
-
 button:hover {
     transform: translateY(-2px);
     box-shadow: 0 10px 20px var(--accent-glow);
     transition: transform 0.2s ease;
 }
-
 button:disabled {
     background: #444;
     cursor: not-allowed;
@@ -128,7 +126,7 @@ button:disabled {
 }
 
 backdrop-filter:blur()
-   
+
 #status {
     margin-top: 20px;
     font-size: 0.85rem;
