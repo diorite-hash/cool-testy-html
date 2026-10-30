@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="../../assets/hexagon.png">
+    <link rel="stylesheet" href="../../styles/SleekWhite.css">
     <title>Redirecting...</title>
     <script type="text/javascript">
         // Extract the path the user tried to visit
         var currentPath = window.location.pathname;
-    
+        
         // Redirect the user back to your root index.html with the path as a query parameter
         // Change "your-repo-name" if you are using a project page, or omit it if using a custom domain
         window.location.replace(window.location.origin + '/?p=' + encodeURIComponent(currentPath));
